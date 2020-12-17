@@ -1,0 +1,21 @@
+{
+  "name": "secrets_startingcode",
+  "version": "1.0.0",
+  "description": "secrets app",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "mongoose-encryption": "^2.0.3",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "author": "Blake",
+  "license": "ISC"
+}
