@@ -223,6 +223,6 @@ app.get("/policy", (req, res, next) => {
   res.render("policy");
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("Server is up on PORT 3000.");
 });
